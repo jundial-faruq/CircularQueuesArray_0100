@@ -99,7 +99,16 @@ public :
             }
             cout << endl;
         }
-
+        else
+        {
+            // jika FRONT_position > REAR_position, iterasi dari FRONT higga akhir array
+            while (FORNT_position <= max - 1)
+            {
+                cout << queue_array[FORNT_position] << "     ";
+                FORNT_position++;
+            }
+            
+        }
         
         
     }
