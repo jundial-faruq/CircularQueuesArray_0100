@@ -9,5 +9,8 @@ private :
     int queue_array[5];
 
 public :
-
+    Queues()
+    {
+        
+    }
 }
