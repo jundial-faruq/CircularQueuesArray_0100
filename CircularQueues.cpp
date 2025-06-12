@@ -107,7 +107,15 @@ public :
                 cout << queue_array[FORNT_position] << "     ";
                 FORNT_position++;
             }
-            
+            FORNT_position = 0;
+
+            // Iterasi dari awal array hingga REAR
+            while (FORNT_position <= REAR_position)
+            {
+                cout << queue_array[FORNT_position] << "    ";
+                FORNT_position++;
+            }
+            cout << endl;
         }
         
         
