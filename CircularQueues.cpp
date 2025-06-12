@@ -70,8 +70,16 @@ public :
             else
                 FRONT = FRONT + 1;
 
-            
+
         }
+        
+    }
+
+    void display()
+    {
+        int FORNT_position = FRONT;
+        int REAR_position = REAR;
+
         
     }
 
